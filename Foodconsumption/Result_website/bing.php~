@@ -11,7 +11,7 @@ function getJson($goods_list,$i){
 }
 
 
-$file_name="clustecenters_2010.csv";
+$file_name="clustecenters_2000.csv";
 $file = fopen($file_name,'r'); 
 while ($data = fgetcsv($file)) { //Ã¿´Î¶ÁÈ¡CSVÀïÃæµÄÒ»ÐÐÄÚÈÝ
 	$goods_list[] = $data;
@@ -102,9 +102,9 @@ for($i=1;$i<=5;$i++){
 		              <ul class="nav navbar-nav">
 		               <li><a class="active" href="index.html" data-hover="Home">Home</a></li>
 		                <li><a href="diqiu.php" data-hover="FoodMap">FoodMap</a></li>
-						<li><a href="bing.php" data-hover="Obesity">Obesity</a></li>
+						<li><a href="obbing.php" data-hover="Obesity">Obesity</a></li>
 						<li><a href="countries.html" data-hover="Countries">Countries</a></li>
-						<li><a href="bingwithGDP.html" data-hover="GDP&Cluster">GDP&Cluster</a></li>
+						<li><a href="bing.php" data-hover="GDP&Cluster">GDP&Cluster</a></li>
 						<li><a href="http://www.fao.org/faostat/en/#home" data-hover="Source">Source</a></li>						
 		              </ul>
 		            </nav>
@@ -135,7 +135,7 @@ if($i == 0) {
 	option = {
     title : {
         text: 'cluster1',
-        subtext: 'different food per captial',
+        subtext: 'different food per capita',
         x:'center'
     },
     tooltip : {
@@ -168,7 +168,6 @@ if($i == 0) {
 	 myChart.setOption(option);
 
 	</script>";
-	
 }	 
 if($i == 1) {
 	 	echo "<script>
@@ -177,7 +176,7 @@ if($i == 1) {
 	option = {
     title : {
         text: 'cluster2',
-        subtext: 'different food per captial',
+        subtext: 'different food per capita',
         x:'center'
     },
     tooltip : {
@@ -218,7 +217,7 @@ if($i == 2) {
 	option = {
     title : {
         text: 'cluster3',
-        subtext: 'different food per captial',
+        subtext: 'different food per capita',
         x:'center'
     },
     tooltip : {
@@ -259,7 +258,7 @@ if($i == 3) {
 	option = {
     title : {
         text: 'cluster4',
-        subtext: 'different food per captial',
+        subtext: 'different food per capita',
         x:'center'
     },
     tooltip : {
@@ -300,7 +299,7 @@ if($i == 4) {
 	option = {
     title : {
         text: 'cluster5',
-        subtext: 'different food per captial',
+        subtext: 'different food per capita',
         x:'center'
     },
     tooltip : {
@@ -337,8 +336,13 @@ if($i == 4) {
   
 	 }
 	?>
-
-	
+	<div id="pic" style='width: 500px;height:400px; float : right;'>
+	<div id ="title" style = 'height: 100'><p align="center"><h1>GDP & different clusters</h1></p></div>
+	<div id ="title" style = 'height: 100'></div>
+	<div id="test" style = 'height: 200'>
+	<img  src="images/gdp1.png" />
+	</div>
+	</div>
 	 
 	<!-- <input type="hidden" id="data" value="<?php echo $json?>" />-->
 
@@ -351,7 +355,8 @@ if($i == 4) {
 	<div class="container">
 		
 			<p class="grid1" >
-     
+       <a href="index.html"> <button type="button" class="btn btn-lg btn-info" >previous year</button></a>
+        <a href="bing2.php"><button type="button" class="btn btn-lg btn-info" >next year</button></a>
       </p>
 		</div>
 	</div>

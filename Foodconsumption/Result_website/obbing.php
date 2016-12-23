@@ -11,7 +11,7 @@ function getJson($goods_list,$i){
 }
 
 
-$file_name="clustecenters_2005.csv";
+$file_name="clustecenters_2010.csv";
 $file = fopen($file_name,'r'); 
 while ($data = fgetcsv($file)) { //Ã¿´Î¶ÁÈ¡CSVÀïÃæµÄÒ»ÐÐÄÚÈÝ
 	$goods_list[] = $data;
@@ -119,7 +119,7 @@ for($i=1;$i<=5;$i++){
 </div>
 <!--header end here-->
 <div class="header" align ="center" style="height:100px;" >
-<p align="center"><h1>2005 Year Food Consumption Result</h1></p>
+<p align="center"><h1>2000 Year Food Consumption Result</h1></p>
 </div>
 	<?php
 	 for($i=0;$i<sizeof($all);$i++){
@@ -135,7 +135,7 @@ if($i == 0) {
 	option = {
     title : {
         text: 'cluster1',
-        subtext: 'different food per captial',
+        subtext: 'different food per capita',
         x:'center'
     },
     tooltip : {
@@ -168,6 +168,7 @@ if($i == 0) {
 	 myChart.setOption(option);
 
 	</script>";
+	
 }	 
 if($i == 1) {
 	 	echo "<script>
@@ -176,7 +177,7 @@ if($i == 1) {
 	option = {
     title : {
         text: 'cluster2',
-        subtext: 'different food per captial',
+        subtext: 'different food per capita',
         x:'center'
     },
     tooltip : {
@@ -217,7 +218,7 @@ if($i == 2) {
 	option = {
     title : {
         text: 'cluster3',
-        subtext: 'different food per captial',
+        subtext: 'different food per capita',
         x:'center'
     },
     tooltip : {
@@ -258,7 +259,7 @@ if($i == 3) {
 	option = {
     title : {
         text: 'cluster4',
-        subtext: 'different food per captial',
+        subtext: 'different food per capita',
         x:'center'
     },
     tooltip : {
@@ -299,7 +300,7 @@ if($i == 4) {
 	option = {
     title : {
         text: 'cluster5',
-        subtext: 'different food per captial',
+        subtext: 'different food per capita',
         x:'center'
     },
     tooltip : {
@@ -336,13 +337,8 @@ if($i == 4) {
   
 	 }
 	?>
-	<div id="pic" style='width: 500px;height:400px; float : right;'>
-	<div id ="title" style = 'height: 100'><p align="center"><h1>GDP & different clusters</h1></p></div>
-	<div id ="title" style = 'height: 100'></div>
-	<div id="test" style = 'height: 200'>
-	<img  src="images/gdp1.png" />
-	</div>
-	</div>
+
+	
 	 
 	<!-- <input type="hidden" id="data" value="<?php echo $json?>" />-->
 
@@ -355,8 +351,7 @@ if($i == 4) {
 	<div class="container">
 		
 			<p class="grid1" >
-       <a href="bing1.php"> <button type="button" class="btn btn-lg btn-info" >previous year</button></a>
-        <a href="bing3.php"><button type="button" class="btn btn-lg btn-info" >next year</button></a>
+     
       </p>
 		</div>
 	</div>

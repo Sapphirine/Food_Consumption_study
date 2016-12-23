@@ -135,7 +135,7 @@ if($i == 0) {
 	option = {
     title : {
         text: 'cluster1',
-        subtext: 'different food per captial',
+        subtext: 'different food per capita',
         x:'center'
     },
     tooltip : {
@@ -176,7 +176,7 @@ if($i == 1) {
 	option = {
     title : {
         text: 'cluster2',
-        subtext: 'different food per captial',
+        subtext: 'different food per capita',
         x:'center'
     },
     tooltip : {
@@ -217,7 +217,7 @@ if($i == 2) {
 	option = {
     title : {
         text: 'cluster3',
-        subtext: 'different food per captial',
+        subtext: 'different food per capita',
         x:'center'
     },
     tooltip : {
@@ -258,7 +258,7 @@ if($i == 3) {
 	option = {
     title : {
         text: 'cluster4',
-        subtext: 'different food per captial',
+        subtext: 'different food per capita',
         x:'center'
     },
     tooltip : {
@@ -299,7 +299,7 @@ if($i == 4) {
 	option = {
     title : {
         text: 'cluster5',
-        subtext: 'different food per captial',
+        subtext: 'different food per capita',
         x:'center'
     },
     tooltip : {
