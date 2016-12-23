@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Contact</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.11.0.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--Google Fonts-->
+<link href='http://fonts.googleapis.com/css?family=Hind:400,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Aladin' rel='stylesheet' type='text/css'>
+<!--google fonts-->
+<!-- animated-css -->
+		<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+		<script src="js/wow.min.js"></script>
+		<script>
+		 new WOW().init();
+		</script>
+<!-- animated-css -->
+<script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<!--header-top start here-->
+<div class="top-header">
+	<div class="container">
+		<div class="top-header-main">
+			<div class="col-md-4 top-social wow bounceInLeft" data-wow-delay="0.3s">
+			    <ul>
+			    	<li><h5>Group info :</h5></li>
+			 	    	<li><a href="https://www.ee.columbia.edu/~cylin/course/bigdata/getgroupinfo.html">Group 91</a></li>
+			    </ul>
+			</div>
+			<div class="col-md-8 header-address wow bounceInRight" data-wow-delay="0.3s">
+				<ul>
+					
+					<li><span class="email"> </span><h6><a href="mailto:info@example.com">zk2202@cloumbia.edu</a></h6></li>
+				</ul>
+			</div>
+		  <div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<!--header-top end here-->
+<!--header start here-->
+	<!-- NAVBAR
+		================================================== -->
+<div class="header">
+	<div class="fixed-header">	
+
+		    <div class="navbar-wrapper">
+		      <div class="container">
+		        <nav class="navbar navbar-inverse navbar-static-top">
+		             <div class="navbar-header">
+			              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+			                <span class="sr-only">Toggle navigation</span>
+			                <span class="icon-bar"></span>
+			                <span class="icon-bar"></span>
+			                <span class="icon-bar"></span>
+			              </button>
+			             
+		            <div id="navbar" class="navbar-collapse collapse">
+		            <nav class="cl-effect-16" id="cl-effect-16">
+		              <ul class="nav navbar-nav">
+		               <li><a class="active" href="index.html" data-hover="Home">Home</a></li>
+		                <li><a href="diqiu.php" data-hover="FoodMap">FoodMap</a></li>
+						<li><a href="obbing.php" data-hover="Obesity">Obesity</a></li>
+						<li><a href="countries.html" data-hover="Countries">Countries</a></li>
+						<li><a href="bing.php" data-hover="GDP&Cluster">GDP&Cluster</a></li>
+						<li><a href="http://www.fao.org/faostat/en/#home" data-hover="Source">Source</a></li>						
+		              </ul>
+		            </nav>
+
+		            </div>
+		            <div class="clearfix"> </div>
+		             </nav>
+		          </div>
+		           <div class="clearfix"> </div>
+		    </div>
+	 </div>
+</div>
+<!--header end here-->
+<!--contact start here-->
+<div class="contact">
+	<div class="container">
+		<div class="contact-main">
+			<div class="contact-top">
+				<h2>Different Countries</h2>
+			</div>
+			<div class="contact-bottom">
+				<div class="col-md-9 contact-left">
+					<img src="images/c1.png" />
+				</div>
+				
+			
+			</div>
+		</div>
+	</div>
+</div>
+<!--contact end here-->
+
+</body>
+</html>

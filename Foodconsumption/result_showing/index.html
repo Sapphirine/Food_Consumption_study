@@ -1,0 +1,221 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Home</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.11.0.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<link href="css/style1.css" rel="stylesheet" type="text/css" media="all" />	
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--Google Fonts-->
+<link href='http://fonts.googleapis.com/css?family=Hind:400,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Aladin' rel='stylesheet' type='text/css'>
+<!--google fonts-->
+<!-- animated-css -->
+		<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+		<script src="js/wow.min.js"></script>
+		<script>
+		 new WOW().init();
+		</script>
+<!-- animated-css -->
+<script src="js/modernizr.js"></script>
+<script>
+    $(document).ready(function(){
+        if (Modernizr.touch) {
+            // show the close overlay button
+            $(".close-overlay").removeClass("hidden");
+            // handle the adding of hover class when clicked
+            $(".branch-gd").click(function(e){
+                if (!$(this).hasClass("hover")) {
+                    $(this).addClass("hover");
+                }
+            });
+            // handle the closing of the overlay
+            $(".close-overlay").click(function(e){
+                e.preventDefault();
+                e.stopPropagation();
+                if ($(this).closest(".branch-gd").hasClass("hover")) {
+                    $(this).closest(".branch-gd").removeClass("hover");
+                }
+            });
+        } else {
+            // handle the mouseenter functionality
+            $(".branch-gd").mouseenter(function(){
+                $(this).addClass("hover");
+            })
+            // handle the mouseleave functionality
+            .mouseleave(function(){
+                $(this).removeClass("hover");
+            });
+        }
+    });
+</script>
+<script src="js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+<!--header-top start here-->
+<div class="top-header">
+	<div class="container">
+		<div class="top-header-main">
+			<div class="col-md-4 top-social wow bounceInLeft" data-wow-delay="0.3s">
+			    <ul>
+			    	<li><h5>Group info :</h5></li>
+			 	    	<li><a href="https://www.ee.columbia.edu/~cylin/course/bigdata/getgroupinfo.html">Group 91</a></li>
+			    </ul>
+			</div>
+			<div class="col-md-8 header-address wow bounceInRight" data-wow-delay="0.3s">
+				<ul>
+					
+					<li><span class="email"> </span><h6><a href="mailto:info@example.com">zk2202@cloumbia.edu</a></h6></li>
+				</ul>
+			</div>
+		  <div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<!--header-top end here-->
+<!--header start here-->
+	<!-- NAVBAR
+		================================================== -->
+<div class="header">
+	<div class="fixed-header">	
+
+		    <div class="navbar-wrapper">
+		      <div class="container">
+		        <nav class="navbar navbar-inverse navbar-static-top">
+		             <div class="navbar-header">
+			              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+			                <span class="sr-only">Toggle navigation</span>
+			                <span class="icon-bar"></span>
+			                <span class="icon-bar"></span>
+			                <span class="icon-bar"></span>
+			              </button>
+			             
+		            <div id="navbar" class="navbar-collapse collapse">
+		            <nav class="cl-effect-16" id="cl-effect-16">
+		              <ul class="nav navbar-nav">
+		               <li><a class="active" href="index.html" data-hover="Home">Home</a></li>
+		                <li><a href="diqiu.php" data-hover="FoodMap">FoodMap</a></li>
+						<li><a href="obbing.php" data-hover="Obesity">Obesity</a></li>
+						<li><a href="countries.html" data-hover="Countries">Countries</a></li>
+						<li><a href="bing.php" data-hover="GDP&Cluster">GDP&Cluster</a></li>
+						<li><a href="http://www.fao.org/faostat/en/#home" data-hover="Source">Source</a></li>						
+		              </ul>
+		            </nav>
+
+		            </div>
+		            <div class="clearfix"> </div>
+		             </nav>
+		          </div>
+		           <div class="clearfix"> </div>
+		    </div>
+	 </div>
+</div>
+<!--header end here-->
+<!--banner  start hwew-->
+<div class="banner">
+	<div class="container">
+		<div class="banner-main wow zoomIn" data-wow-delay="0.3s">
+			<h2>Food Consumption Study</h2>
+			<h6>Big Data Group Project </h6>
+			<p>Analyze the global distribution of nutrition structures for selected years.</p>
+		</div>
+    </div>
+</div>
+<!--BANNER END HERE-->
+<!--information start here-->
+<div class="information">
+	<div class="container">
+		<div class="information-main">
+			  <div class="information-grid five-star wow slideInLeft" data-wow-delay="0.3s">
+			  	<div class="col-md-4 hotel-info">
+			  		
+			  		<div class="info-right">
+			  			<h4>FoodMap</h4>
+			  			
+			  		</div>
+			  	  <div class="clearfix"> </div>
+			  	</div>
+			  	<div class="col-md-4 hotel-info">
+			  		
+			  		<div class="info-right">
+			  			<h4>Obesity</h4>
+			  			
+			  		</div>
+			  	  <div class="clearfix"> </div>
+			  	</div>
+			  	<div class="col-md-4 hotel-info">
+			  		
+			  		<div class="info-right">
+			  			<h4>Countries</h4>
+			  			
+			  		</div>
+			  	  <div class="clearfix"> </div>
+			  	</div>
+			  	<div class="clearfix"> </div>
+			  </div>
+			  <div class="information-grid wow slideInRight" data-wow-delay="0.3s">
+			  	<div class="col-md-4 hotel-info">
+			  		
+			  		<div class="info-right">
+			  			<h4>GDP</h4>
+			  		
+			  		</div>
+			  	  <div class="clearfix"> </div>
+			  	</div>
+			  	<div class="col-md-4 hotel-info">
+			  		
+			  		<div class="info-right">
+			  			<h4>Source</h4>
+			  			
+			  		</div>
+			  	  <div class="clearfix"> </div>
+			  	</div>
+			  	<div class="col-md-4 hotel-info">
+			  		
+			  		<div class="info-right">
+			  			
+			  			<p>Coding : Yilan Ji, Data: Yuwei Xiong, Visiualization: Zhuo Kong.</p>
+			  		</div>
+			  	  <div class="clearfix"> </div>
+			  	</div>
+			  	<div class="clearfix"> </div>
+			  </div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<!--information end here-->
+
+
+
+<div class="footer">
+	<div class="container">
+		
+			<div class="col-md-3 ftr-grid ftr-mid wow zoomIn" data-wow-delay="0.3s">
+				 <h3>Reference</h3>
+				 <span class="ftr-line flm"> </span>
+				<p><a href="http://www.fao.org/faostat/en/#home " >Food and Agriculture Organization of the United Nations_Statistics Division</a></p>
+				<p>Global Database on Body Mass Index  (World Health Organization) </p>
+				<p ><a href = "http://apps.who.int/bmi/index.jsp">World Development Indicators (World Band Group)</a> </p>
+			
+
+				
+			</div>
+			
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<!--footer end here-->
+
+</body>
+</html>
